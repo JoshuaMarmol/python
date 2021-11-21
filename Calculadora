@@ -1,0 +1,45 @@
+def ingreso():
+ global a,b
+a=float(raw_input("Ingrese primer numero\n"))
+b=float(raw_input("Ingrese primer numero\n"))
+def suma():
+ print "El resultado es; ", a+b
+raw_input()
+
+def resta():
+print "El resultado es; ", a-b
+raw_input ()
+
+def multiplicacion():
+print "El resultado es ", a*b
+raw_input ()
+
+def division0):
+if (b==0):
+print "No se puede dividir en 0"
+raw_input ()
+else:
+print "El resultado es;'"a/b
+raw_input ()
+
+white(True);
+print"1 Suma"
+print"2 Resta"
+print"3 Multiplicacion"
+print"4 Division"
+opcion=int(raw_input("Ingrese opcion\n*))
+ir(opcion==1):
+ingreso()
+Suma()
+
+elif(opcion==2):
+ingreso()
+resta()
+
+elif(opcion==3):
+ingreso()
+multiplicacion()
+
+elif(opcion==4):
+ingreso()
+Division()
